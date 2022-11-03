@@ -26,9 +26,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: MarvelAdapter
-    private var marvelImages:String = ""
-    private var nombre: String = ""
-    private var descripcion: String = ""
     private lateinit var lista:ArrayList<ItemLista>
 
     override fun onCreate(savedInstanceState: Bundle?) {
